@@ -1,148 +1,151 @@
-🦇 Batman Movies Cards – React.JS e Vite
+# 🦇 Batman Movies Cards – React
 
-Uma aplicação React desenvolvida para exibir cards de filmes do Batman, com estilização em CSS e reutilização de componentes por meio de props. O projeto é ótimo como exercício de componentização, organização de assets e boas práticas iniciais com React e Vite. 
-GitHub
+Aplicação desenvolvida em **React.js** utilizando **Vite**, com foco em **componentização**, **uso de props** e organização de assets. O projeto exibe **cards de filmes do Batman**, sendo ideal para estudos iniciais em React e para compor portfólio frontend.
 
-📍 Preview (deploy online):
-https://batman-project-lilac.vercel.app
- 💻 
-GitHub
+🔗 **Demo online:**  
+👉 https://batman-project-lilac.vercel.app/
 
-📌 Tecnologias Utilizadas
+---
 
-React.js – Biblioteca JavaScript para construir interfaces
+## 🚀 Tecnologias Utilizadas
 
-Vite – Ferramenta de build e servidor de desenvolvimento
+- ⚛️ React.js  
+- ⚡ Vite  
+- 🟨 JavaScript (ES6+)  
+- 🎨 CSS  
+- 🟢 Node.js  
+- 📦 npm  
+- ☁️ Vercel (deploy)
 
-JavaScript (ES6+) – Lógica da aplicação
+---
 
-CSS – Estilização visual
+## 🎯 Objetivo do Projeto
 
-Node.js / npm – Gerenciamento de dependências 
-GitHub
+Demonstrar habilidades em:
 
-📁 Estrutura de Pastas
+- Componentização com React
+- Reutilização de componentes via props
+- Organização de assets (imagens locais)
+- Estruturação de projetos com Vite
+- Deploy de aplicações frontend
+
+---
+
+## 📂 Estrutura de Pastas
+
+```bash
 Batman_Movies_Cards_React/
 ├── public/
-│   ├── index.html
-│   └── ...
+│   └── index.html
+│
 ├── src/
 │   ├── assets/
+│   │   └── images/
 │   ├── components/
+│   │   └── Card.jsx
 │   ├── App.jsx
 │   └── main.jsx
+│
 ├── .gitignore
 ├── package.json
 ├── vite.config.js
 └── README.md
+🔧 Pré-requisitos
+🟢 Node.js (versão 18 ou superior recomendada)
 
+📦 npm
 
-(Baseado na estrutura mostrada no repositório.) 
-GitHub
+🌱 Git
 
-🛠️ Pré-requisitos
+Verifique se está tudo instalado:
 
-Antes de rodar o projeto localmente, você precisa ter:
-
-✔️ Node.js (recomendado versão 18 ou superior)
-✔️ npm (geralmente vem com o Node)
-✔️ Git
-
-Você pode verificar as versões instaladas com:
-
+bash
+Copiar código
 node -v
 npm -v
 
 📥 Como Clonar o Projeto
-
-Abra o terminal e digite:
-
+bash
+Copiar código
 git clone https://github.com/devwebschloesser/Batman_Movies_Cards_React.git
 cd Batman_Movies_Cards_React
 
-📦 Instalando Dependências
-
-Após entrar na pasta do projeto, instale as dependências com:
-
+📦 Instalação das Dependências
+bash
+Copiar código
 npm install
 
-
-Isso vai baixar tudo que o projeto precisa para rodar.
-
 ▶️ Como Rodar o Projeto Localmente
-
-Depois das dependências instaladas, inicie o servidor de desenvolvimento:
-
+bash
+Copiar código
 npm run dev
-
-
-Depois disso, abra o navegador e acesse:
+Acesse no navegador:
 
 👉 http://localhost:5173
 
-Agora você verá os cards de filmes do Batman na sua máquina!
+🖱️ Funcionalidades
+Exibição de cards de filmes do Batman
 
-💡 Sobre o Projeto
-🎬 Cards de Filmes
+Imagens importadas localmente
 
-O app renderiza uma lista de cards, cada um contendo:
+Componentes reutilizáveis
 
-🖼️ Imagem do pôster do filme
+Layout simples e organizado
 
-🏷️ Título do filme
+Renderização dinâmica com React
 
-📄 Descrição ou texto informativo
+🎨 Customização
+Você pode personalizar facilmente:
 
-Os cards usam props para receber dados e são renderizados dinamicamente. 
-GitHub
+Títulos e descrições dos filmes
 
-💡 Componentização
+Imagens dos cards
 
-O projeto foi criado com foco em:
+Estilos no CSS
 
-Componentização com React
+Estrutura dos componentes
 
-Reuso de componentes com props
+📁 Arquivo principal para customização:
 
-Organização de assets (imagens importadas localmente)
+bash
+Copiar código
+src/components/Card.jsx
+🧠 Conceitos Aplicados
+⚛️ React Components
 
-Boas práticas iniciais com React e Vite 
-GitHub
+🔁 Props
 
-🚀 Deploy
+🗂️ Organização de arquivos
 
-O deploy desse projeto foi feito com Vercel, que automaticamente publica a versão estável conectando com o repositório GitHub. 
-GitHub
+🖼️ Importação de assets
 
-🧠 O que você vai aprender com esse projeto
+⚡ Vite como bundler
 
-Estrutura básica de um app React com componentes
+📦 Build para Produção
+bash
+Copiar código
+npm run build
+Os arquivos finais serão gerados em:
 
-Como importar e usar assets locais (imagens)
+bash
+Copiar código
+dist/
 
-Uso de props para passar dados para componentes
+🌐 Deploy
+O projeto foi publicado utilizando a Vercel, com integração direta ao repositório GitHub para deploy automático.
 
-Configuração e uso do Vite para desenvolvimento
-
-🧪 Possíveis Melhorias
-
-Você pode expandir esse projeto adicionando:
-
-✨ Busca por filmes da API OMDb
-✨ Sistema de filtros (ano, tipo, etc.)
-✨ Animação ao passar o mouse nos cards
-✨ Rotas com React Router
-
+🧪 Testes
+Este projeto não possui testes automatizados no momento.
 
 👨‍💻 Autor
-
 Leonardo Schloesser Pinheiro
-📍 RS 
+Desenvolvedor Full Stack
+📍 Florianópolis – SC
 
 🔗 GitHub: https://github.com/devwebschloesser
-
 🔗 LinkedIn: https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/
- 
-GitHub
 
-⭐ Se o projeto te ajudou ou serviu de inspiração, deixe uma estrela no repositório! 🎯
+📄 Licença
+Este projeto está sob a licença MIT.
+
+⭐ Se você gostou do projeto, deixe uma estrela no repositório!
