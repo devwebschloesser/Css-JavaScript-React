@@ -1,4 +1,4 @@
-# 🦇 Batman Movies Cards – React
+🦇 Batman Movies Cards – React
 
 Aplicação desenvolvida em **React.js** utilizando **Vite**, com foco em **componentização**, **uso de props** e organização de assets. O projeto exibe **cards de filmes do Batman**, sendo ideal para estudos iniciais em React e para compor portfólio frontend.
 
@@ -51,6 +51,8 @@ Batman_Movies_Cards_React/
 ├── vite.config.js
 └── README.md
 🔧 Pré-requisitos
+Antes de iniciar, você precisa ter instalado:
+
 🟢 Node.js (versão 18 ou superior recomendada)
 
 📦 npm
@@ -75,11 +77,13 @@ bash
 Copiar código
 npm install
 
-▶️ Como Rodar o Projeto Localmente
+▶️ Como Iniciar o Projeto
+Após instalar as dependências, execute:
+
 bash
 Copiar código
 npm run dev
-Acesse no navegador:
+Em seguida, acesse no navegador:
 
 👉 http://localhost:5173
 
@@ -122,25 +126,29 @@ src/components/Card.jsx
 ⚡ Vite como bundler
 
 📦 Build para Produção
+Para gerar a versão de produção:
+
 bash
 Copiar código
 npm run build
 Os arquivos finais serão gerados em:
 
 bash
+
 Copiar código
 dist/
-
 🌐 Deploy
 O projeto foi publicado utilizando a Vercel, com integração direta ao repositório GitHub para deploy automático.
 
 🧪 Testes
 Este projeto não possui testes automatizados no momento.
 
+
 👨‍💻 Autor
+
 Leonardo Schloesser Pinheiro
 Desenvolvedor Full Stack
-📍 Florianópolis – SC
+
 
 🔗 GitHub: https://github.com/devwebschloesser
 🔗 LinkedIn: https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/
