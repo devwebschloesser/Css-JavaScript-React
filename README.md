@@ -1,81 +1,148 @@
-# 🦇 Batman Movies Cards – React.JS e Vite
+🦇 Batman Movies Cards – React.JS e Vite
 
-Projeto desenvolvido em **React** com o objetivo de exibir cards informativos de filmes do Batman, contendo **imagem do pôster, título e descrição** de cada filme.
+Uma aplicação React desenvolvida para exibir cards de filmes do Batman, com estilização em CSS e reutilização de componentes por meio de props. O projeto é ótimo como exercício de componentização, organização de assets e boas práticas iniciais com React e Vite. 
+GitHub
 
-Este projeto foi criado com foco em **componentização**, **organização de assets** e boas práticas iniciais em React.
+📍 Preview (deploy online):
+https://batman-project-lilac.vercel.app
+ 💻 
+GitHub
 
----
+📌 Tecnologias Utilizadas
 
-## 📸 Preview
+React.js – Biblioteca JavaScript para construir interfaces
 
-> Interface composta por múltiplos cards renderizados dinamicamente utilizando componentes reutilizáveis.
+Vite – Ferramenta de build e servidor de desenvolvimento
 
----
+JavaScript (ES6+) – Lógica da aplicação
 
-## 🚀 Tecnologias Utilizadas
+CSS – Estilização visual
 
-* **React.js** – Biblioteca principal para construção da interface
-* **JavaScript (ES6+)** – Lógica da aplicação
-* **JSX** – Sintaxe para criação de componentes
-* **CSS** – Estilização dos componentes
-* **Vite** – Ferramenta de build e servidor de desenvolvimento
-* **Node.js / npm** – Gerenciamento de dependências
+Node.js / npm – Gerenciamento de dependências 
+GitHub
 
----
-
-
-Componente reutilizável responsável por exibir:
-
-* Título do filme
-* Imagem do pôster
-* Descrição do filme
-
-#### Props utilizadas:
-
-jsx
-title: string
-poster: image
-description: string
-
----
-
-## 📄 App.jsx
-
-O componente App é responsável por:
-
-* Importar os pôsteres localmente
-* Renderizar múltiplos componentes Card
-* Passar os dados via **props**
-
-Utiliza **template strings** para permitir textos longos com múltiplas linhas.
-
----
-
-## 🖼️ Assets
-
-As imagens dos pôsteres são armazenadas localmente na pasta `assets e importadas diretamente nos componentes, garantindo melhor organização e performance.
-
----
+📁 Estrutura de Pastas
+Batman_Movies_Cards_React/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
 
 
-## 🎯 Objetivo do Projeto
+(Baseado na estrutura mostrada no repositório.) 
+GitHub
 
-* Praticar **React básico**
-* Entender **componentização**
-* Trabalhar com **props**
-* Importar e organizar **assets locais**
-* Utilizar **Vite** como ambiente de desenvolvimento
+🛠️ Pré-requisitos
 
----
+Antes de rodar o projeto localmente, você precisa ter:
 
-## 👨‍💻 Autor
+✔️ Node.js (recomendado versão 18 ou superior)
+✔️ npm (geralmente vem com o Node)
+✔️ Git
 
-**Leonardo Schloesser**
-Desenvolvedor Full Stack em formação 🚀
+Você pode verificar as versões instaladas com:
 
-* GitHub: [https://github.com/devwebschloesser](https://github.com/devwebschloesser)
-* LinkedIn: [https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/](https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/)
+node -v
+npm -v
 
----
+📥 Como Clonar o Projeto
 
-⭐ Se este projeto te ajudou ou serviu como inspiração, deixe uma estrela no repositório!
+Abra o terminal e digite:
+
+git clone https://github.com/devwebschloesser/Batman_Movies_Cards_React.git
+cd Batman_Movies_Cards_React
+
+📦 Instalando Dependências
+
+Após entrar na pasta do projeto, instale as dependências com:
+
+npm install
+
+
+Isso vai baixar tudo que o projeto precisa para rodar.
+
+▶️ Como Rodar o Projeto Localmente
+
+Depois das dependências instaladas, inicie o servidor de desenvolvimento:
+
+npm run dev
+
+
+Depois disso, abra o navegador e acesse:
+
+👉 http://localhost:5173
+
+Agora você verá os cards de filmes do Batman na sua máquina!
+
+💡 Sobre o Projeto
+🎬 Cards de Filmes
+
+O app renderiza uma lista de cards, cada um contendo:
+
+🖼️ Imagem do pôster do filme
+
+🏷️ Título do filme
+
+📄 Descrição ou texto informativo
+
+Os cards usam props para receber dados e são renderizados dinamicamente. 
+GitHub
+
+💡 Componentização
+
+O projeto foi criado com foco em:
+
+Componentização com React
+
+Reuso de componentes com props
+
+Organização de assets (imagens importadas localmente)
+
+Boas práticas iniciais com React e Vite 
+GitHub
+
+🚀 Deploy
+
+O deploy desse projeto foi feito com Vercel, que automaticamente publica a versão estável conectando com o repositório GitHub. 
+GitHub
+
+🧠 O que você vai aprender com esse projeto
+
+Estrutura básica de um app React com componentes
+
+Como importar e usar assets locais (imagens)
+
+Uso de props para passar dados para componentes
+
+Configuração e uso do Vite para desenvolvimento
+
+🧪 Possíveis Melhorias
+
+Você pode expandir esse projeto adicionando:
+
+✨ Busca por filmes da API OMDb
+✨ Sistema de filtros (ano, tipo, etc.)
+✨ Animação ao passar o mouse nos cards
+✨ Rotas com React Router
+
+
+👨‍💻 Autor
+
+Leonardo Schloesser Pinheiro
+📍 RS 
+
+🔗 GitHub: https://github.com/devwebschloesser
+
+🔗 LinkedIn: https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/
+ 
+GitHub
+
+⭐ Se o projeto te ajudou ou serviu de inspiração, deixe uma estrela no repositório! 🎯
