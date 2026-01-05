@@ -1,159 +1,130 @@
-🦇 Batman Movies Cards – React
+# 🦇 Batman Movies Cards React
 
-Aplicação desenvolvida em **React.js** utilizando **Vite**, com foco em **componentização**, **uso de props** e organização de assets. O projeto exibe **cards de filmes do Batman**, sendo ideal para estudos iniciais em React e para compor portfólio frontend.
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-5-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-green)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-🔗 **Demo online:**  
-👉 https://batman-project-lilac.vercel.app/
+``` Projeto frontend que exibe uma coleção de cards de filmes do **Batman**, utilizando **React + Vite** com layout moderno, componentização e design responsivo.
 
----
-
-## 🚀 Tecnologias Utilizadas
-
-- ⚛️ React.js  
-- ⚡ Vite  
-- 🟨 JavaScript (ES6+)  
-- 🎨 CSS  
-- 🟢 Node.js  
-- 📦 npm  
-- ☁️ Vercel (deploy)
+🔗 **Repositório:** https://github.com/devwebschloesser/Batman_Movies_Cards_React  
+🚀 **Deploy:** *(adicione aqui se for publicado no Vercel, Netlify, GitHub Pages, etc)*
 
 ---
 
-## 🎯 Objetivo do Projeto
+## 📌 Sobre o Projeto
 
-Demonstrar habilidades em:
+Este projeto foi desenvolvido como um **exercício de interface** para exibir filmes do Batman em cartões (cards), aplicando:
 
 - Componentização com React
-- Reutilização de componentes via props
-- Organização de assets (imagens locais)
-- Estruturação de projetos com Vite
-- Deploy de aplicações frontend
+- Layout responsivo e organizado
+- Uso de props para renderização dinâmica
+- Estilização com CSS moderno
+- Boas práticas de estruturação de projeto frontend
+
+Ele pode ser utilizado como portfólio ou como base para projetos maiores envolvendo APIs e gestão de conteúdo.
 
 ---
 
-## 📂 Estrutura de Pastas
+## 🧰 Tecnologias Utilizadas
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| **React.js** | Biblioteca para construção da UI |
+| **Vite** | Ferramenta de desenvolvimento rápida |
+| **JavaScript (ES6+)** | Linguagem base do projeto |
+| **HTML5** | Estrutura das páginas |
+| **CSS3** | Estilização visual e responsividade |
+| **Git & GitHub** | Versionamento de código |
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```bash
 Batman_Movies_Cards_React/
-├── public/
-│   └── index.html
-│
+├── public/                # Arquivos públicos (HTML, favicon, etc)
 ├── src/
-│   ├── assets/
-│   │   └── images/
-│   ├── components/
-│   │   └── Card.jsx
-│   ├── App.jsx
-│   └── main.jsx
-│
+│   ├── assets/            # Imagens e ícones
+│   ├── components/        # Componentes React
+│   ├── styles/            # CSS e estilos
+│   ├── App.jsx            # Componente principal
+│   └── main.jsx           # Entrada da aplicação
 ├── .gitignore
+├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
-🔧 Pré-requisitos
-Antes de iniciar, você precisa ter instalado:
 
-🟢 Node.js (versão 18 ou superior recomendada)
-
-📦 npm
-
-🌱 Git
-
-Verifique se está tudo instalado:
-
+🚀 Como Rodar o Projeto Localmente
+1️⃣ Clone o repositório
 bash
-Copiar código
-node -v
-npm -v
 
-📥 Como Clonar o Projeto
-bash
-Copiar código
 git clone https://github.com/devwebschloesser/Batman_Movies_Cards_React.git
+2️⃣ Acesse a pasta do projeto
+bash
+
 cd Batman_Movies_Cards_React
-
-📦 Instalação das Dependências
+3️⃣ Instale as dependências
 bash
-Copiar código
+
 npm install
-
-▶️ Como Iniciar o Projeto
-Após instalar as dependências, execute:
+ou
 
 bash
-Copiar código
+
+yarn
+4️⃣ Inicie o servidor de desenvolvimento
+bash
+
 npm run dev
-Em seguida, acesse no navegador:
 
-👉 http://localhost:5173
+5️⃣ Abra no navegador
+text
 
-🖱️ Funcionalidades
-Exibição de cards de filmes do Batman
+http://localhost:5173
 
-Imagens importadas localmente
+✨ Funcionalidades Atuais
 
-Componentes reutilizáveis
+✅ Cards exibindo filmes do Batman
 
-Layout simples e organizado
+✅ Componentização em React
 
-Renderização dinâmica com React
+✅ Layout responsivo para mobile e desktop
 
-🎨 Customização
-Você pode personalizar facilmente:
+✅ Uso de CSS moderno
 
-Títulos e descrições dos filmes
+🧠 Possíveis Melhorias
 
-Imagens dos cards
+Aqui estão algumas ideias de melhorias para o projeto:
 
-Estilos no CSS
+🔲 Conectar com API de filmes real (TMDb, OMDb, etc)
 
-Estrutura dos componentes
+🔲 Busca e filtros por título, ano ou gênero
 
-📁 Arquivo principal para customização:
+🔲 Página de detalhes para cada filme
 
-bash
-Copiar código
-src/components/Card.jsx
-🧠 Conceitos Aplicados
-⚛️ React Components
+🔲 Animações CSS/JS nos cards
 
-🔁 Props
+🔲 Dark mode (tema escuro)
 
-🗂️ Organização de arquivos
+🤝 Como Contribuir
+Contribuições são bem-vindas! 🙌
 
-🖼️ Importação de assets
+Faça um fork do projeto
 
-⚡ Vite como bundler
+Crie uma branch (feature/nome-da-feature)
 
-📦 Build para Produção
-Para gerar a versão de produção:
+Faça seus commits (git commit -m "feat: descrição")
 
-bash
-Copiar código
-npm run build
-Os arquivos finais serão gerados em:
+Abra um Pull Request
 
-bash
-
-Copiar código
-dist/
-🌐 Deploy
-O projeto foi publicado utilizando a Vercel, com integração direta ao repositório GitHub para deploy automático.
-
-🧪 Testes
-Este projeto não possui testes automatizados no momento.
 
 
 👨‍💻 Autor
 
 Leonardo Schloesser Pinheiro
-Desenvolvedor Full Stack
-
-
+📧 leonardo.schlo@hgmail.com
 🔗 GitHub: https://github.com/devwebschloesser
 🔗 LinkedIn: https://www.linkedin.com/in/leonardo-schloesser-0043a81b3/
-
-📄 Licença
-Este projeto está sob a licença MIT.
-
-⭐ Se você gostou do projeto, deixe uma estrela no repositório!
