@@ -8,14 +8,10 @@
 
 ``` Projeto frontend que exibe uma coleção de cards de filmes do **Batman**, utilizando **React + Vite** com layout moderno, componentização e design responsivo.
 
-🔗 **Repositório:** https://github.com/devwebschloesser/Batman_Movies_Cards_React  
-🚀 **Deploy:** *(adicione aqui se for publicado no Vercel, Netlify, GitHub Pages, etc)*
-
----
 
 ## 📌 Sobre o Projeto
 
-Este projeto foi desenvolvido como um **exercício de interface** para exibir filmes do Batman em cartões (cards), aplicando:
+Este projeto foi desenvolvido  para exibir filmes do Batman em cartões (cards), aplicando:
 
 - Componentização com React
 - Layout responsivo e organizado
